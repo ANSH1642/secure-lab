@@ -11,8 +11,8 @@ app.use(express.json());
 // Insecure MySQL connection
 const db = mysql.createConnection({
   host: "localhost",
-  user: "root",
-  password: "saksham548",
+  user: "app_user",
+  password: "ansh123",
   database: "vulnerable_db",
 });
 
